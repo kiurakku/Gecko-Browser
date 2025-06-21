@@ -3,7 +3,7 @@
 **Gecko Browser** — це open-source браузер, створений на базі рушія **Firefox Gecko**, орієнтований на безпеку, приватність та відкритість коду. Gecko дозволяє користувачам переглядати інтернет без нав'язливих трекерів, з мінімалістичним інтерфейсом та широкими можливостями кастомізації.
 
 ![Gecko Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Firefox_Developer_Edition_logo%2C_2017.svg/512px-Firefox_Developer_Edition_logo%2C_2017.svg.png)
-> _Це тимчасовий логотип. Замініть на власний SVG або PNG._
+> _Це тимчасовий логотип.
 
 ---
 
