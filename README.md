@@ -1,77 +1,78 @@
 # 🦎 Gecko Browser
 
-**Gecko Browser** — це open-source браузер, створений на базі рушія **Firefox Gecko**, орієнтований на безпеку, приватність та відкритість коду. Gecko дозволяє користувачам переглядати інтернет без нав'язливих трекерів, з мінімалістичним інтерфейсом та широкими можливостями кастомізації.
+**Gecko Browser** is an open-source web browser built on the **Firefox Gecko engine**, designed for privacy, security, and transparency. Gecko allows users to browse the web without intrusive trackers, offering a minimalist interface and extensive customization options.
 
 ![Gecko Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Firefox_Developer_Edition_logo%2C_2017.svg/512px-Firefox_Developer_Edition_logo%2C_2017.svg.png)
-> _Це тимчасовий логотип.
+
+> *Temporary placeholder logo.*
 
 ---
 
-## ✨ Основні переваги
+## ✨ Key Features
 
-- 🔐 **Приватність за замовчуванням** — вимкнена телеметрія, нуль трекінгу
-- ⚡ **Швидкодія** — рушій Gecko оптимізований для продуктивності
-- 🧩 **Підтримка розширень Firefox**
-- 🖌️ **Мінімалістичний дизайн** з можливістю кастомізації
-- 🧑‍💻 **Open Source** — контроль за кожним рядком коду
-
----
-
-## 🧰 Побудова браузера
-
-### 🔧 Вимоги
-
-- Linux (рекомендовано), macOS або Windows
-- RAM: 8–16 ГБ
-- Дисковий простір: 50–60 ГБ
-- Інструменти: `git`, `python3`, `rust`, `clang`, `nodejs`, `yarn`
+* 🔐 **Privacy by Default** — telemetry disabled, zero tracking
+* ⚡ **High Performance** — optimized Gecko engine
+* 🧩 **Firefox Extension Support** — use your favorite add-ons
+* 🖌️ **Minimalist Design** — fully customizable UI
+* 🧑‍💻 **Open Source** — full transparency over the code
 
 ---
 
-### ⚙️ Інсталяція та збірка
+## 🧰 Browser Build
+
+### 🔧 Requirements
+
+* Linux (recommended), macOS, or Windows
+* RAM: 8–16 GB
+* Disk space: 50–60 GB
+* Tools: `git`, `python3`, `rust`, `clang`, `nodejs`, `yarn`
+
+---
+
+### ⚙️ Installation & Build
 
 ```bash
-# Клонування репозиторію
+# Clone the repository
 git clone https://github.com/your-username/gecko-browser.git
 cd gecko-browser
 
-# Підготовка середовища
+# Prepare the build environment
 ./mach bootstrap
 
-# Збірка браузера (може тривати довго)
+# Build the browser (may take a while)
 ./mach build
 
-# Запуск Gecko Browser
+# Launch Gecko Browser
 ./mach run
-````
+```
 
 ---
 
-## 📁 Структура проєкту
+## 📁 Project Structure
 
-| Шлях                     | Призначення                   |
-| ------------------------ | ----------------------------- |
-| `browser/branding/gecko` | Твій власний брендинг         |
-| `browser/base/content`   | UI, компоненти вікна браузера |
-| `toolkit/components`     | Системні модулі Firefox       |
-| `build/`                 | Сценарії збірки               |
-| `application.ini`        | Основні конфігурації          |
-
----
-
-## ⚠️ Приватність
-
-Ми видалили або вимкнули такі елементи:
-
-* Телеметрія
-* Збір даних використання
-* Системи аналітики
-
-Якщо хочеш повну анонімність — рекомендуємо використовувати разом із [Tor Network](https://www.torproject.org/).
+| Path                     | Purpose                        |
+| ------------------------ | ------------------------------ |
+| `browser/branding/gecko` | Custom branding                |
+| `browser/base/content`   | Browser UI & window components |
+| `toolkit/components`     | Firefox system modules         |
+| `build/`                 | Build scripts                  |
+| `application.ini`        | Main configuration             |
 
 ---
 
-## 📝 Ліцензія
+## ⚠️ Privacy Focus
+
+We have removed or disabled:
+
+* Telemetry
+* Usage data collection
+* Analytics systems
+
+For complete anonymity, we recommend using Gecko with [Tor Network](https://www.torproject.org/).
+
+---
+
+## 📝 License
 
 ```
 MIT License
@@ -79,15 +80,16 @@ MIT License
 
 ---
 
-## 📣 Контакти
+## 📣 Get Involved
 
-Проєкт підтримується ентузіастами. Якщо маєш ідеї або хочеш допомогти — відкривай issues або роби pull requests 💡
+This project is maintained by privacy and open-source enthusiasts.
+Have ideas or want to contribute? Open issues or submit pull requests 💡
 
 ---
 
-## 🌍 Майбутні плани
+## 🌍 Future Roadmap
 
-* [ ] Темна тема за замовчуванням
+* [ ] Default dark theme
 * [ ] Gecko Extensions Marketplace
-* [ ] Gecko Mobile версія
-* [ ] Gecko VPN інтеграція
+* [ ] Gecko Mobile version
+* [ ] Gecko VPN integration
